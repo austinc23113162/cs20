@@ -20,6 +20,6 @@ http.createServer(function (req, res) {
   
   res.write ("The id is: " + id)
   res.end();
-  console.log('hey')
+  console.log('hey2')
   }
 }).listen(port);
